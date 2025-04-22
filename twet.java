@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class twetone {
+public class twet
+ {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -14,15 +15,15 @@ public class twetone {
                 break;
             } 
             else {
-                System.out.println("not a perfect square");
-            }
+                continue;
+
 
             
             }
        
         
         
-        sc.close();
+        
         }
-    
-}
+        sc.close();
+    }}
